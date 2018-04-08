@@ -1453,3 +1453,15 @@ em.search-keyword {
   color: #fff;
   background-color: #999999;
   text-shadow: 0; }
+
+audio {
+  margin-bottom: -10px;
+  width: 150px;
+  height: 32px; }
+
+audio::-webkit-media-controls-mute-button {
+  display: none !important; }
+
+audio::-webkit-media-controls-volume-slider, video::-webkit-media-controls-volume-slider {
+  -webkit-appearance: media-volume-slider;
+  display: none !important; }
